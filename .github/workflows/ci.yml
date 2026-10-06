@@ -3,7 +3,6 @@ name: Static site verification
 on:
   pull_request:
   push:
-    branches: [main]
     tags: ["v*"]
 
 jobs:
